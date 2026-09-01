@@ -17,6 +17,7 @@
 #define HASH_ENTER              0x0dd2 // GV_StrCode( "入る" )
 #define HASH_LEAVE              0xd5cc // GV_StrCode( "出る" )
 #define HASH_LEAVE2             0x1a19 // GV_StrCode( "leave" )
+#define HASH_CALL               0x121f // GV_StrCode( "call" )
 #define HASH_KILL               0x3223 // GV_StrCode( "kill" )
 #define HASH_OFF                0xc927 // GV_StrCode( "off" )
 #define HASH_OFF2               0x006b // GV_StrCode( "ＯＦＦ" )
@@ -43,6 +44,7 @@
 #define HASH_OPERATION          0x4f34 // GV_StrCode( "operation" ) (might be wrong)
 #define HASH_MAP                0xf9ad // GV_StrCode( "マップ" )
 #define HASH_LOOP               0xca87 // GV_StrCode( "loop" )
+#define HASH_TEX                0xdd19 // GV_StrCode( "tex" )
 
 //-----------------------------------------------------------------------------
 // HZD
