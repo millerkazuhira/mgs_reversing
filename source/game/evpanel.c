@@ -67,7 +67,7 @@ typedef struct _Work
 /*---------------------------------------------------------------------------*/
 
 unsigned short s03e_dword_800C3268[] = {
-    0x121F,
+    HASH_CALL,
     0x8D5C,
     HASH_ENTER,     // GV_StrCode("入る")
     HASH_LEAVE,     // GV_StrCode("出る")
@@ -182,7 +182,7 @@ static int s03e_evpanel_800C3488(Work *work)
                     work->f8C.pad = msg->message[1];
                 }
             }
-            else if (code == 0x121F)
+            else if (code == HASH_CALL)
             {
                 if ((msg->message_len >= 2) && (msg->message[1] == 0))
                 {

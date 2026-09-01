@@ -156,7 +156,7 @@ static void d11c_800C361C(Work *work)
 
         switch (type)
         {
-        case 0xDD19:
+        case HASH_TEX:
             param1 = GCL_StrToInt(GCL_NextStr());
             param2 = GCL_StrToInt(GCL_NextStr());
             d11c_800C326C(work, param1);
